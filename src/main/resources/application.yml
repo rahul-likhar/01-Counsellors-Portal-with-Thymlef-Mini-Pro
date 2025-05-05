@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: 01-CounsellorsPortal
+
+  datasource:
+    username: root
+    password: Test@123
+    url: jdbc:mysql://localhost:3306/CounsellorsPortalDb?createDatabaseIfNotExist=true&autoReconnect=true&showSSL=false
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
